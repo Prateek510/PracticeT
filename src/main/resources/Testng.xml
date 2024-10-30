@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CRM" parallel="classes">
+    <test name="TestCRM">
+        <parameter name="username" value="prateek.bhardwaj1@gmail.com"/>
+        <parameter name="password" value="Prateek@87"/>
+        <classes>
+            <class name="Pages.LanguageAndCurrency"/>
+            <class name="Pages.SearchDestination"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
